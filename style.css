@@ -109,7 +109,7 @@ body {
 
 .summary-description-header {
   display: flex;
-  gap: 1;
+  gap: 1rem;
 }
 
 .summary-description {
