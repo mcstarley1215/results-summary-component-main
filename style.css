@@ -161,9 +161,20 @@ button:active {
   background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
+@media screen and (min-width: 275px) {
+  .container {
+    flex-flow: column nowrap;
+    box-shadow: none;
+  }
+
+  .result {
+    flex-flow: column nowrap;
+    width: 20rem;
+  }
+}
+
 @media screen and (min-width: 375px) {
   .container {
-    flex-flow: column wrap;
     box-shadow: none;
   }
 
@@ -176,6 +187,10 @@ button:active {
   .container {
     flex-direction: row;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .result {
+    width: 17rem;
   }
 }
 
